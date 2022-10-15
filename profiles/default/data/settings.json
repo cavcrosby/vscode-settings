@@ -168,7 +168,6 @@
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "sync.gist": "5890b9c85e9031ddd9e643202e326107",
     "syncSettings.resources": [
         "extensions",
         "keybindings",

@@ -30,8 +30,6 @@ enabled:
     uuid: 79afa437-682e-4fa2-a4fd-87844832a1dc
   - id: samuelcolvin.jinjahtml
     uuid: 8b477a76-974c-403d-a454-58028c1709d1
-  - id: Shan.code-settings-sync
-    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
   - id: streetsidesoftware.code-spell-checker
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: timonwong.shellcheck
