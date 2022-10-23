@@ -69,6 +69,7 @@
         "jcascutil",
         "jenkinsfile",
         "kubeadm",
+        "kubeconfig",
         "kubectl",
         "kubelet",
         "kubernetes",
