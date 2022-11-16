@@ -65,6 +65,7 @@
         "idempotence",
         "iifname",
         "initscript",
+        "ippool",
         "jcasc",
         "jcascutil",
         "jenkinsfile",
