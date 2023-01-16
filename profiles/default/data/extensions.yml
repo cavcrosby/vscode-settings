@@ -4,6 +4,8 @@ enabled:
     uuid: 464f4ac7-af65-4aa9-9907-4ba7fa419085
   - id: donjayamanne.githistory
     uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: gerane.Theme-Boron
     uuid: b764e78f-e885-40f4-9767-840166685b1f
   - id: golang.go
@@ -36,3 +38,5 @@ enabled:
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: vscode-icons-team.vscode-icons
     uuid: 9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

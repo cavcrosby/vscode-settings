@@ -51,6 +51,7 @@
         "dpkg",
         "ebtables",
         "envsubst",
+        "etcdctl",
         "filesystems",
         "filext",
         "FULLNAME",
