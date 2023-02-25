@@ -18,6 +18,9 @@ repository:
   branch: main
 ```
 
+2. See https://github.com/zokugun/vscode-sync-settings#readme for how to
+download or upload VSCode/VSCodium settings.
+
 ## License
 
 See LICENSE.
