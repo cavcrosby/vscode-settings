@@ -1,6 +1,4 @@
 {
-    "autoDocstring.docstringFormat": "numpy",
-    "C_Cpp.intelliSenseEngine": "Default",
     "cSpell.userWords": [
         "agentopts",
         "Altaria",
