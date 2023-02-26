@@ -11,7 +11,7 @@ https://github.com/zokugun/vscode-sync-settings.
 
 ```yaml
 ---
-profile: default
+profile: linux
 repository:
   type: git
   url: https://github.com/cavcrosby/vscode-settings.git
