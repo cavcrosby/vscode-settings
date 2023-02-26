@@ -153,7 +153,6 @@
         "**/playbooks/*.yml": "ansible",
         "**/playbooks/tasks/*.yml": "ansible",
         "**/roles/**/**/*.yml": "ansible",
-        "*.Vagrantfile": "ruby",
     },
     "git.enableCommitSigning": true,
     "git.enableSmartCommit": true,
@@ -170,6 +169,11 @@
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "syncSettings.additionalFiles": [
+        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins_opened.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins.svg"
+    ],
     "syncSettings.resources": [
         "extensions",
         "keybindings",
@@ -189,11 +193,22 @@
     ],
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "vsicons.associations.files": [
-        { "icon": "shell_template", "extensions": [".shtpl"], "format": "svg" },
-        { "icon": "vagrant", "extensions": [".Vagrantfile"], "format": "ruby" },
+        {
+            "icon": "shell_template",
+            "extensions": [
+                ".shtpl"
+            ],
+            "format": "svg"
+        }
     ],
     "vsicons.associations.folders": [
-        { "icon": "jenkins", "extensions": [".jenkins"], "format": "svg"}
+        {
+            "icon": "jenkins",
+            "extensions": [
+                ".jenkins"
+            ],
+            "format": "svg"
+        }
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
     "workbench.iconTheme": "vscode-icons",
