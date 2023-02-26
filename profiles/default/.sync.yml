@@ -2,7 +2,3 @@ resources:
   - extensions
   - keybindings
   - settings
-additionalFiles:
-  - ~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg
-  - ~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins_opened.svg
-  - ~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins.svg
