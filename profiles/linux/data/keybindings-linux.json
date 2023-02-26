@@ -1,0 +1,7 @@
+// Empty
+[
+    {
+        "key": "alt+f",
+        "command": "workbench.action.toggleMaximizedPanel"
+    }
+]
