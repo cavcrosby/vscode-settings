@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: ms-vscode.references-view
+    uuid: dc489f46-520d-4556-ae85-1f9eab3c412d
 enabled:
   - id: donjayamanne.githistory
     uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
