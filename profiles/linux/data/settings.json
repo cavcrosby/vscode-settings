@@ -137,17 +137,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "Dockerfile Instructions",
-                "scope": "keyword.other.special-method.dockerfile",
-                "settings": {
-                    "foreground": "#ffb964"
-                }
-            },
-        ],
-    },
     "files.associations": {
         "*.yml.shtpl": "yaml",
         "**/handlers/**/**/*.yml": "ansible",
@@ -156,7 +145,6 @@
         "**/roles/**/**/*.yml": "ansible",
     },
     "git.enableCommitSigning": true,
-    "git.enableSmartCommit": true,
     "[go]": {
         "editor.formatOnSave": false
     },
@@ -212,7 +200,7 @@
         }
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
-    "workbench.colorTheme": "Boron",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,

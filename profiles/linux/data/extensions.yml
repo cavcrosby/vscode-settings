@@ -6,8 +6,8 @@ enabled:
     uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: gerane.Theme-Boron
-    uuid: b764e78f-e885-40f4-9767-840166685b1f
+  - id: GitHub.github-vscode-theme
+    uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
   - id: Gruntfuggly.todo-tree
@@ -24,8 +24,6 @@ enabled:
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
-  - id: ryu1kn.partial-diff
-    uuid: 79afa437-682e-4fa2-a4fd-87844832a1dc
   - id: samuelcolvin.jinjahtml
     uuid: 8b477a76-974c-403d-a454-58028c1709d1
   - id: streetsidesoftware.code-spell-checker
