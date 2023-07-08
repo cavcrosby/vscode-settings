@@ -146,6 +146,7 @@
         "**/roles/**/**/*.yml": "ansible",
     },
     "git.enableCommitSigning": true,
+    "git.suggestSmartCommit": false,
     "[go]": {
         "editor.formatOnSave": false
     },
