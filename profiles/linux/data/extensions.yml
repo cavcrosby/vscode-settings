@@ -16,6 +16,10 @@ enabled:
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
+  - id: ms-python.black-formatter
+    uuid: 859e640c-c157-47da-8699-9080b81c8371
+  - id: ms-python.flake8
+    uuid: 856a00d7-c18a-406c-8461-d4914a12e193
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-toolsai.jupyter

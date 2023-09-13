@@ -150,13 +150,6 @@
     "[go]": {
         "editor.formatOnSave": false
     },
-    "python.formatting.blackArgs": [
-        "--line-length", "79"
-    ],
-    "python.formatting.provider": "black",
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
