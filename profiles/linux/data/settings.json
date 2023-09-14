@@ -150,6 +150,9 @@
     "[go]": {
         "editor.formatOnSave": false
     },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -199,5 +202,5 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
 }
