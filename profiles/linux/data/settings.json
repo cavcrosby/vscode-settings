@@ -5,9 +5,6 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -163,6 +160,7 @@
         "**/roles/**/**/*.yml": "ansible"
     },
     "git.enableCommitSigning": true,
+    "git.inputValidation": "warn",
     "git.suggestSmartCommit": false,
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
@@ -212,5 +210,5 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
 }
