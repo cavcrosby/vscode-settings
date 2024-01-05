@@ -5,6 +5,9 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -12,8 +15,18 @@
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "cSpell.userWords": [
-        "agentopts",
         "Altaria",
+        "Bitwarden",
+        "Datasources",
+        "FULLNAME",
+        "GOPATH",
+        "LBYL",
+        "MYREPOS",
+        "PYENV",
+        "Pkgs",
+        "SSTYLE",
+        "XPCOM",
+        "agentopts",
         "altarias",
         "ansictrler",
         "aptsources",
@@ -21,7 +34,6 @@
         "autotag",
         "autotagging",
         "barebones",
-        "Bitwarden",
         "caic",
         "cargs",
         "casc",
@@ -49,7 +61,6 @@
         "ctrlnode",
         "ctrserver",
         "ctrservers",
-        "Datasources",
         "dearmor",
         "debcomprt",
         "debootstrap",
@@ -65,13 +76,11 @@
         "etcdctl",
         "filesystems",
         "filext",
-        "FULLNAME",
         "genzip",
         "getcwd",
         "getppid",
         "gettext",
         "git",
-        "GOPATH",
         "graw",
         "homelab",
         "idempotence",
@@ -87,7 +96,6 @@
         "kubectl",
         "kubelet",
         "kubernetes",
-        "LBYL",
         "lineinfile",
         "lintable",
         "machinectl",
@@ -95,7 +103,6 @@
         "markscribe",
         "mgmt",
         "mkprocess",
-        "MYREPOS",
         "nargs",
         "netaddr",
         "netdev",
@@ -107,11 +114,9 @@
         "packagecloud",
         "pconfs",
         "pipefail",
-        "Pkgs",
         "ppid",
         "printf",
         "pubkey",
-        "PYENV",
         "pylib",
         "pylibargparse",
         "pyver",
@@ -125,7 +130,6 @@
         "selfhosted",
         "setuptools",
         "sourceline",
-        "SSTYLE",
         "stow's",
         "stringifying",
         "subcommands",
@@ -146,18 +150,17 @@
         "virtualenvs",
         "vmms",
         "weechat",
-        "workingdir",
-        "XPCOM"
+        "workingdir"
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
     "files.associations": {
-        "*.yml.shtpl": "yaml",
         "**/handlers/**/**/*.yml": "ansible",
         "**/playbooks/*.yml": "ansible",
         "**/playbooks/tasks/*.yml": "ansible",
-        "**/roles/**/**/*.yml": "ansible"
+        "**/roles/**/**/*.yml": "ansible",
+        "*.yml.shtpl": "yaml"
     },
     "git.enableCommitSigning": true,
     "git.inputValidation": "warn",
@@ -167,8 +170,8 @@
     "security.workspace.trust.untrustedFiles": "open",
     "syncSettings.additionalFiles": [
         "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins_opened.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins.svg"
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_jenkins_opened.svg"
     ],
     "syncSettings.resources": [
         "extensions",
@@ -178,10 +181,10 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "todo-tree.general.tags": [
         "BUG",
-        "HACK",
         "FIXME",
-        "TODO",
+        "HACK",
         "MONITOR",
+        "TODO",
         "XXX",
         "[ ]",
         "[x]"
@@ -210,5 +213,5 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none",
+    "workbench.startupEditor": "none"
 }
