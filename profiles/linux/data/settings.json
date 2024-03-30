@@ -176,7 +176,7 @@
         "keybindings",
         "settings"
     ],
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "todo-tree.general.tags": [
         "BUG",
         "FIXME",
