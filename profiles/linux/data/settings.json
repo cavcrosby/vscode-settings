@@ -159,6 +159,7 @@
         "**/roles/**/**/*.yml": "ansible",
         "*.yml.shtpl": "yaml"
     },
+    "files.insertFinalNewline": true,
     "git.enableCommitSigning": true,
     "git.inputValidation": true,
     "git.suggestSmartCommit": false,
@@ -192,15 +193,6 @@
             ],
             "format": "svg",
             "icon": "shell_template"
-        }
-    ],
-    "vsicons.associations.folders": [
-        {
-            "extensions": [
-                ".jenkins"
-            ],
-            "format": "svg",
-            "icon": "jenkins"
         }
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
