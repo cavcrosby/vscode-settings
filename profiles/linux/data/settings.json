@@ -168,7 +168,9 @@
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "syncSettings.additionalFiles": [
-        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg"
+        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg"
     ],
     "syncSettings.resources": [
         "extensions",
@@ -194,6 +196,16 @@
             ],
             "format": "svg",
             "icon": "shell_template"
+        }
+    ],
+    "vsicons.associations.folders": [
+        {
+            "extensions": [
+                ".ansible",
+                "ansible"
+            ],
+            "format": "svg",
+            "icon": "ansible"
         }
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
