@@ -158,7 +158,9 @@
         "**/playbooks/*.yml": "ansible",
         "**/playbooks/tasks/*.yml": "ansible",
         "**/roles/**/**/*.yml": "ansible",
-        "*.yml.shtpl": "yaml"
+        "*.yml.shtpl": "yaml",
+        "*.log.*": "log",
+
     },
     "files.insertFinalNewline": true,
     "git.enableCommitSigning": true,
@@ -191,21 +193,21 @@
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "vsicons.associations.files": [
         {
+            "icon": "shell_template",
+            "format": "svg",
             "extensions": [
                 ".shtpl"
-            ],
-            "format": "svg",
-            "icon": "shell_template"
+            ]
         }
     ],
     "vsicons.associations.folders": [
         {
+            "icon": "ansible",
+            "format": "svg",
             "extensions": [
                 ".ansible",
                 "ansible"
-            ],
-            "format": "svg",
-            "icon": "ansible"
+            ]
         }
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
