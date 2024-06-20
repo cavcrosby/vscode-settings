@@ -6,6 +6,10 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": false
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": false
+    },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
