@@ -1,4 +1,6 @@
 disabled:
+  - id: ms-toolsai.jupyter
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-vscode.references-view
     uuid: dc489f46-520d-4556-ae85-1f9eab3c412d
 enabled:
@@ -30,8 +32,6 @@ enabled:
     uuid: 856a00d7-c18a-406c-8461-d4914a12e193
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
-  - id: ms-toolsai.jupyter
-    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-toolsai.jupyter-keymap
     uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
   - id: ms-toolsai.jupyter-renderers
