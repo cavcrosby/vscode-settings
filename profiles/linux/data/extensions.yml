@@ -22,6 +22,8 @@ enabled:
     uuid: 41a86ae3-cc87-4293-9324-c615272967f2
   - id: hashicorp.terraform
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
+  - id: llvm-vs-code-extensions.vscode-clangd
+    uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-python.black-formatter
