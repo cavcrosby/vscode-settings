@@ -16,6 +16,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
+    "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
     "cSpell.userWords": [
         "Altaria",
         "Bitwarden",
@@ -219,6 +220,5 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none",
-    "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd"
+    "workbench.startupEditor": "none"
 }
