@@ -217,6 +217,7 @@
     ],
     "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
     "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.editor.openPositioning": "last",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
