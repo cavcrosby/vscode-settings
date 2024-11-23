@@ -1,21 +1,15 @@
 {
-    "[go]": {
-        "editor.formatOnSave": false
-    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.formatOnSave": false
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.formatOnSave": false
     },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "diffEditor.ignoreTrimWhitespace": false
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
     "cSpell.userWords": [
@@ -158,6 +152,7 @@
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
+    "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
     "files.associations": {
         "**/handlers/**/**/*.yml": "ansible",
@@ -166,7 +161,6 @@
         "**/roles/**/**/*.yml": "ansible",
         "*.yml.shtpl": "yaml",
         "*.log.*": "log",
-
     },
     "files.insertFinalNewline": true,
     "git.enableCommitSigning": true,
