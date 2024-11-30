@@ -28,16 +28,10 @@ enabled:
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
-  - id: ms-python.black-formatter
-    uuid: 859e640c-c157-47da-8699-9080b81c8371
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
-  - id: ms-python.flake8
-    uuid: 856a00d7-c18a-406c-8461-d4914a12e193
   - id: ms-python.mypy-type-checker
     uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
-  - id: ms-python.pylint
-    uuid: 8dc47276-5882-4c5f-903d-7eef7b9d1584
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-toolsai.jupyter-keymap
@@ -63,4 +57,4 @@ enabled:
   - id: vscode-icons-team.vscode-icons
     uuid: 9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a
   - id: zokugun.cron-tasks
-    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
