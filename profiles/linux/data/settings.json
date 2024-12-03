@@ -154,6 +154,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
+    "evenBetterToml.schema.enabled": false,
     "files.associations": {
         "**/handlers/**/**/*.yml": "ansible",
         "**/playbooks/*.yml": "ansible",
