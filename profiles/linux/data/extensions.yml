@@ -26,8 +26,6 @@ enabled:
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
-  - id: mhutchie.git-graph
-    uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.mypy-type-checker
