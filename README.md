@@ -5,7 +5,8 @@ https://github.com/zokugun/vscode-sync-settings.
 
 ## Usage
 
-1. In VSCode/VSCodium, configure the the extension to use the remote repository:
+1. In VSCode/VSCodium, configure the `vscode-sync-settings` extension to use
+the following remote repository.
 
    > &gt; Sync Settings: Open the repository settings
 
