@@ -24,6 +24,7 @@
         "**/roles/**/**/*.yml": "ansible",
         "*.yml.shtpl": "yaml",
         "*.log.*": "log",
+        ".rc": "shellscript"
     },
     "files.insertFinalNewline": true,
     "git.enableCommitSigning": true,
