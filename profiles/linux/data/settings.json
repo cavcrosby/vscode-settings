@@ -79,6 +79,5 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none",
-    "go.toolsManagement.autoUpdate": true
+    "workbench.startupEditor": "none"
 }
