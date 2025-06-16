@@ -24,7 +24,6 @@
         "**/playbooks/*.yml": "ansible",
         "**/playbooks/tasks/*.yml": "ansible",
         "**/roles/**/**/*.yml": "ansible",
-        "*.yml.shtpl": "yaml",
         "*.log.*": "log",
         ".rc": "shellscript"
     },
@@ -46,17 +45,6 @@
         "settings"
     ],
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "todo-tree.general.tags": [
-        "BUG",
-        "FIXME",
-        "HACK",
-        "MONITOR",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "vsicons.associations.files": [
         {
             "icon": "shell_template",

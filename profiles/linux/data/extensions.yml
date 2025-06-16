@@ -1,6 +1,6 @@
 disabled:
   - id: ms-toolsai.jupyter
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-vscode.references-view
     uuid: dc489f46-520d-4556-ae85-1f9eab3c412d
 enabled:
@@ -8,8 +8,6 @@ enabled:
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
-  - id: donjayamanne.githistory
-    uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: esbenp.prettier-vscode
@@ -18,8 +16,6 @@ enabled:
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
-  - id: Gruntfuggly.todo-tree
-    uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: hashicorp.hcl
     uuid: 41a86ae3-cc87-4293-9324-c615272967f2
   - id: hashicorp.terraform
