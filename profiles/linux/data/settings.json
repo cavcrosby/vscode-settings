@@ -34,6 +34,7 @@
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "shellcheck.enable": false,
     "syncSettings.additionalFiles": [
         "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg",
