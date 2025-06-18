@@ -1,4 +1,6 @@
 disabled:
+  - id: DavidAnson.vscode-markdownlint
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-vscode.references-view
@@ -6,8 +8,6 @@ disabled:
 enabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
-  - id: DavidAnson.vscode-markdownlint
-    uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: esbenp.prettier-vscode
