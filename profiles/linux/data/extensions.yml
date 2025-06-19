@@ -36,6 +36,8 @@ enabled:
     uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
   - id: ms-toolsai.vscode-jupyter-slideshow
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
+  - id: opentofu.vscode-opentofu
+    uuid: f52f98b8-9404-4d1e-b4da-73d60dc6838b
   - id: redhat.ansible
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
   - id: redhat.vscode-yaml
