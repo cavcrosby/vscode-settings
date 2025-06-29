@@ -6,3 +6,4 @@ additionalFiles:
   - ~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg
   - ~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg
   - ~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg
+  - ~/.config/VSCodium/User/vsicons-custom-icons/file_type_gitleaks.svg
