@@ -4,7 +4,7 @@
    version="1.1"
    id="svg249"
    sodipodi:docname="file_type_shell_template.svg"
-   inkscape:version="1.1.1 (1:1.1+202109281944+c3084ef5ed)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,12 +22,12 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="26.0625"
-     inkscape:cx="8.4220624"
+     inkscape:cx="5.1606715"
      inkscape:cy="16"
-     inkscape:window-width="1920"
-     inkscape:window-height="1043"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg249" />
   <defs
@@ -50,7 +50,7 @@
     </linearGradient>
   </defs>
   <title
-     id="title159">file_type_haxedevelop</title>
+     id="title159">file_type_shell_template</title>
   <rect
      x="2.043"
      y="15.953"
@@ -242,7 +242,7 @@
     <rdf:RDF>
       <cc:Work
          rdf:about="">
-        <dc:title>file_type_haxedevelop</dc:title>
+        <dc:title>file_type_shell_template</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

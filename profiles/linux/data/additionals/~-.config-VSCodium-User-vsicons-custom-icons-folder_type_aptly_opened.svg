@@ -24,16 +24,16 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="27.28125"
-     inkscape:cx="15.981672"
+     inkscape:cx="12.847652"
      inkscape:cy="15.981672"
      inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg8" />
   <title
-     id="title2">folder_type_husky_opened</title>
+     id="title2">folder_type_aptly_opened</title>
   <path
      d="M27.4,5.5H18.2L16.1,9.7H4.3v4H.5L4.3,26.5H29.5V5.5ZM20.2,7.6h7.1V9.7H19.2Zm5.5,6.1H6.6V11.8H27.4v7.626Z"
      style="fill:#7bd7db"
@@ -85,7 +85,7 @@
     <rdf:RDF>
       <cc:Work
          rdf:about="">
-        <dc:title>folder_type_husky_opened</dc:title>
+        <dc:title>folder_type_aptly_opened</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

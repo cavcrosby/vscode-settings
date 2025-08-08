@@ -42,18 +42,18 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="23.74569"
-     inkscape:cx="20.635324"
+     inkscape:cx="17.076783"
      inkscape:cy="20.424759"
      inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg12465"
      showguides="false"
      inkscape:lockguides="false" />
   <title
-     id="title12459">default_folder_opened</title>
+     id="title12459">folder_type_ansible_opened</title>
   <g
      id="g14502"
      style="fill:#fd6e54;fill-opacity:1">
@@ -71,7 +71,7 @@
     <rdf:RDF>
       <cc:Work
          rdf:about="">
-        <dc:title>default_folder_opened</dc:title>
+        <dc:title>folder_type_ansible_opened</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -8,7 +8,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1620">file_type_gitleaks</title>
   <defs
      id="defs525" />
   <sodipodi:namedview
@@ -21,7 +26,7 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="26.21875"
-     inkscape:cx="6.5601907"
+     inkscape:cx="3.2991657"
      inkscape:cy="15.98093"
      inkscape:window-width="2560"
      inkscape:window-height="1371"
@@ -48,4 +53,13 @@
      inkscape:label="path517"
      d="m 17.868155,22.174088 a 1.8739155,2.0644066 0.84888037 0 1 -2.015532,1.901991 1.8739155,2.0644066 0.84888037 0 1 -1.720778,-2.214869 1.8739155,2.0644066 0.84888037 0 1 2.015532,-1.901992 1.8739155,2.0644066 0.84888037 0 1 1.720778,2.21487 z M 14.748674,7.6384501 H 17.1984 c 0.339286,1e-7 0.61243,0.2980186 0.61243,0.668203 l 1e-6,9.1118109 c 0,0.370183 -0.273145,0.668203 -0.612432,0.668203 l -2.449725,-10e-7 c -0.339287,0 -0.612431,-0.298019 -0.612431,-0.668202 V 8.3066532 c 0,-0.3701845 0.273143,-0.6682031 0.612431,-0.6682031 z"
      sodipodi:insensitive="true" />
+  <metadata
+     id="metadata1618">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>file_type_gitleaks</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

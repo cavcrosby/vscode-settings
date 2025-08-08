@@ -42,16 +42,16 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="23.7505"
-     inkscape:cx="20.715353"
+     inkscape:cx="17.115429"
      inkscape:cy="20.673249"
      inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg12356" />
   <title
-     id="title12352">default_folder</title>
+     id="title12352">folder_type_ansible</title>
   <path
      d="M27.5,5.5H18.2L16.1,9.7H4.4V26.5H29.6V5.5Zm0,4.2H19.3l1.1-2.1h7.1Z"
      style="fill:#dd5541;fill-opacity:1"
@@ -61,7 +61,7 @@
     <rdf:RDF>
       <cc:Work
          rdf:about="">
-        <dc:title>default_folder</dc:title>
+        <dc:title>folder_type_ansible</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
