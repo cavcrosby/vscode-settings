@@ -41,7 +41,9 @@
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/file_type_gitleaks.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly_opened.svg"
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly_opened.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd_opened.svg"
     ],
     "syncSettings.resources": [
         "extensions",
@@ -79,6 +81,13 @@
             "format": "svg",
             "extensions": [
                 "aptly"
+            ]
+        },
+        {
+            "icon": "systemd",
+            "format": "svg",
+            "extensions": [
+                "systemd"
             ]
         }
     ],

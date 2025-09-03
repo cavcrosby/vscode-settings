@@ -16,6 +16,8 @@ enabled:
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: hangxingliu.vscode-systemd-support
+    uuid: 422d9344-2afe-4ddb-8b9d-f21339087d60
   - id: hashicorp.hcl
     uuid: 41a86ae3-cc87-4293-9324-c615272967f2
   - id: llvm-vs-code-extensions.vscode-clangd
