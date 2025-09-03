@@ -24,4 +24,6 @@ Personal VSCode/VSCodium settings that are maintained using
 
 ## License
 
-See LICENSE.
+See LICENSE[^1].
+
+[^1]: The `profiles/linux/data/additionals/~-.config-VSCodium-User-vsicons-custom-icons-folder_type_systemd.svg` and `profiles/linux/data/additionals/~-.config-VSCodium-User-vsicons-custom-icons-folder_type_systemd_opened.svg` files are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) license. Credit goes to [Tobias Bernard](https://tobiasbernard.com/) for the `systemd` logo. Resized from the [original](https://brand.systemd.io/).
