@@ -2,7 +2,7 @@ disabled:
   - id: DavidAnson.vscode-markdownlint
     uuid: 00000000-0000-0000-0000-000000000000
   - id: ms-toolsai.jupyter
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-vscode.references-view
     uuid: dc489f46-520d-4556-ae85-1f9eab3c412d
 enabled:
