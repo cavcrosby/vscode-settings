@@ -42,6 +42,7 @@
     ],
     "python.languageServer": "Jedi",
     "python.terminal.activateEnvironment": false,
+    "python.terminal.shellIntegration.enabled": false,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "shellcheck.enable": false,
