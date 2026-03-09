@@ -36,7 +36,7 @@
         "*.log.*": "log",
         ".rc": "shellscript"
     },
-    "files.insertFinalNewline": false,
+    "files.insertFinalNewline": true,
     "git.enableCommitSigning": true,
     "git.inputValidation": true,
     "git.suggestSmartCommit": false,
