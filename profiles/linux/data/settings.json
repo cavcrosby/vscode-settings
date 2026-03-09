@@ -1,4 +1,7 @@
 {
+    "[ansible]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -33,7 +36,7 @@
         "*.log.*": "log",
         ".rc": "shellscript"
     },
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "git.enableCommitSigning": true,
     "git.inputValidation": true,
     "git.suggestSmartCommit": false,
