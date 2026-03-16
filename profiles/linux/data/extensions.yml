@@ -44,6 +44,7 @@ enabled:
     uuid: f52f98b8-9404-4d1e-b4da-73d60dc6838b
   - id: redhat.ansible
     uuid: f8cb4642-bc5c-46a1-be34-0977e817406c
+    version: 25.9.0
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: samuelcolvin.jinjahtml
