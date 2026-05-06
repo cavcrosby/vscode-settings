@@ -24,6 +24,7 @@
     "ansible.lightspeed.suggestions.enabled": false,
     "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.8/clangd_21.1.8/bin/clangd",
     "diffEditor.ignoreTrimWhitespace": false,
+    "chat.disableAIFeatures": true,
     "editor.bracketPairColorization.enabled": false,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
@@ -37,6 +38,7 @@
         ".rc": "shellscript"
     },
     "files.insertFinalNewline": true,
+    "git.addAICoAuthor": "off",
     "git.enableCommitSigning": true,
     "git.inputValidation": true,
     "git.suggestSmartCommit": false,
