@@ -1,0 +1,170 @@
+#!/bin/bash
+#
+# Installs the Python Environment Tools (PET) binary used within the Python
+# (ms-python.python) and Python Environments (ms-python.vscode-python-envs)
+# VSCode extensions.
+
+set -eo pipefail
+
+# constants
+PROGNAME="$(basename "$0")"
+readonly PROGNAME
+
+if ! [ "${XDG_CACHE_HOME}" ]; then
+    cache_dir_path="${HOME}/.cache/desktop-configs"
+else
+    cache_dir_path="${XDG_CACHE_HOME}/desktop-configs"
+fi
+
+add_github_repo() {
+    local repo_slug="$1"
+    local repo_branch="$2"
+    # release/2026.4 => release-2026.4
+    local destdir="${cache_dir_path}/${repo_slug#*/}-${repo_branch/\//-}"
+
+    if ! [ -d "${destdir}" ]; then
+        git clone \
+            --quiet \
+            --branch "${repo_branch}" \
+            "https://github.com/${repo_slug}.git" \
+            "${destdir}"
+    else
+        git -C "${destdir}" pull --quiet
+    fi
+
+    printf "%s\n" "${destdir}"
+}
+
+install_pet() {
+    local destdir="$1"
+    local repo_path="$2"
+    # using subshell will not affect original PWD
+    (
+        cd "${repo_path}"
+        if ! err="$(\
+            cargo build --release --color "never" --bin "pet" 2>&1 \
+        )"; then
+            printf "%s:\n%s\n" "${PROGNAME}" "${err}" >&2
+            exit 1
+        fi
+
+        install \
+            -D \
+            --mode 755 \
+            --target-directory "${destdir}" \
+            "./target/release/pet"
+    )
+}
+
+if ! [ "$(command -v git)" ]; then
+    printf "%s: %s\n" "${PROGNAME}" "git cannot be found in the PATH!" >&2
+    exit 1
+fi
+
+if ! [ "$(command -v cargo)" ]; then
+    printf "%s: %s\n" "${PROGNAME}" "cargo cannot be found in the PATH!" >&2
+    exit 1
+fi
+
+if ! [ "$(command -v codium)" ]; then
+    printf "%s: %s\n" "${PROGNAME}" "codium cannot be found in the PATH!" >&2
+    exit 1
+fi
+
+if ! [ "$(command -v curl)" ]; then
+    printf "%s: %s\n" "${PROGNAME}" "curl cannot be found in the PATH!" >&2
+    exit 1
+fi
+
+if ! [ "$(command -v yq)" ]; then
+    printf "%s: %s\n" "${PROGNAME}" "yq cannot be found in the PATH!" >&2
+    exit 1
+fi
+
+python_ext="$(\
+    codium \
+        --list-extensions \
+        --show-versions \
+        | grep "ms-python.python" \
+)"
+
+if ! [ "${python_ext}" ]; then
+    printf \
+        "%s: %s\n" \
+        "${PROGNAME}" \
+        "ms-python.python (Python) is not installed in VSCodium" \
+        >&2
+
+    exit 1
+fi
+
+vscode_python_envs_ext="$(\
+    codium \
+        --list-extensions \
+        --show-versions \
+        | grep "ms-python.vscode-python-envs" \
+)"
+
+if ! [ "${vscode_python_envs_ext}" ]; then
+    printf \
+        "%s: %s %s\n" \
+        "${PROGNAME}" \
+        "ms-python.vscode-python-envs (Python Environments) is not" \
+        "installed in VSCodium" \
+        >&2
+
+    exit 1
+fi
+
+python_pet_version="$(\
+    curl \
+        --silent \
+        --location \
+        "https://raw.githubusercontent.com/microsoft/vscode-python/refs/tags/v${python_ext#*@}/build/azure-pipeline.stable.yml" \
+    | yq '
+        .["extends"]["parameters"]["buildSteps"][]
+        | select(.task == "DownloadPipelineArtifact*").inputs.branchName
+        | sub("refs/heads/", "")
+        ' \
+)"
+
+vscode_python_envs_pet_version="$(\
+    curl \
+        --silent \
+        --location \
+        "https://raw.githubusercontent.com/microsoft/vscode-python-environments/refs/tags/v${vscode_python_envs_ext#*@}/build/azure-pipeline.stable.yml" \
+    | yq '
+        .["extends"]["parameters"]["buildSteps"][]
+        | select(.task == "DownloadPipelineArtifact*").inputs.branchName
+        | sub("refs/heads/", "")
+        ' \
+)"
+
+mkdir --parents "${cache_dir_path}"
+install_pet \
+    "$(\
+        find \
+            "${HOME}/.vscode-oss/extensions" \
+            -maxdepth 1 \
+            -name "ms-python.python-${python_ext#*@}-*" \
+            -printf "%p/python-env-tools/bin" \
+    )" \
+    "$(add_github_repo \
+        "microsoft/python-environment-tools" \
+        "${python_pet_version}" \
+    )"
+
+install_pet \
+    "$(\
+        find \
+            "${HOME}/.vscode-oss/extensions" \
+            -maxdepth 1 \
+            -name "ms-python.vscode-python-envs-${vscode_python_envs_ext#*@}-*" \
+            -printf "%p/python-env-tools/bin" \
+    )" \
+    "$(add_github_repo \
+        "microsoft/python-environment-tools" \
+        "${vscode_python_envs_pet_version}" \
+    )"
+
+exit 0

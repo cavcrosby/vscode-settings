@@ -23,3 +23,8 @@ repos:
           - markdown
         additional_dependencies:
           - prettier@3.6.2
+
+  - repo: https://github.com/cavcrosby/shellcheck-precommit.git
+    rev: v0.12.0
+    hooks:
+      - id: shellcheck
