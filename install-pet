@@ -11,9 +11,9 @@ PROGNAME="$(basename "$0")"
 readonly PROGNAME
 
 if ! [ "${XDG_CACHE_HOME}" ]; then
-    cache_dir_path="${HOME}/.cache/desktop-configs"
+    cache_dir_path="${HOME}/.cache/vscode-settings"
 else
-    cache_dir_path="${XDG_CACHE_HOME}/desktop-configs"
+    cache_dir_path="${XDG_CACHE_HOME}/vscode-settings"
 fi
 
 add_github_repo() {
