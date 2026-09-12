@@ -20,6 +20,9 @@
     "[toml]": {
         "editor.defaultFormatter": "tombi-toml.tombi"
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
     "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
@@ -55,7 +58,7 @@
         "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_gitleaks.svg",
+        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_betterleaks.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly_opened.svg",
         "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd.svg",
@@ -77,10 +80,10 @@
             ]
         },
         {
-            "icon": "gitleaks",
+            "icon": "betterleaks",
             "format": "svg",
             "extensions": [
-                ".gitleaksignore"
+                ".betterleaksignore"
             ]
         }
     ],
