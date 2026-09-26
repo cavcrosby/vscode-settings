@@ -1,6 +1,6 @@
 disabled:
   - id: charliermarsh.ruff
-    uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: ms-toolsai.jupyter
