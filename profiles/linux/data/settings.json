@@ -1,129 +1,112 @@
 {
-    "[ansible]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[ansible]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tombi-toml.tombi",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "ansible.lightspeed.enabled": false,
+  "ansible.lightspeed.suggestions.enabled": false,
+  "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "chat.disableAIFeatures": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "files.associations": {
+    "**/handlers/**/**/*.yml": "ansible",
+    "**/playbooks/*.yml": "ansible",
+    "**/playbooks/tasks/*.yml": "ansible",
+    "**/roles/**/**/*.yml": "ansible",
+    "*.log.*": "log",
+    ".rc": "shellscript",
+  },
+  "files.insertFinalNewline": true,
+  "git.addAICoAuthor": "off",
+  "git.enableCommitSigning": true,
+  "git.inputValidation": true,
+  "git.suggestSmartCommit": false,
+  "mypy-type-checker.args": ["--strict"],
+  "python.languageServer": "Jedi",
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.shellIntegration.enabled": false,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "shellcheck.enable": false,
+  "syncSettings.additionalFiles": [
+    "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/file_type_betterleaks.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly_opened.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd.svg",
+    "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd_opened.svg",
+  ],
+  "syncSettings.resources": ["extensions", "keybindings", "settings"],
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "vsicons.associations.files": [
+    {
+      "icon": "shell_template",
+      "format": "svg",
+      "extensions": [".shtpl"],
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "icon": "betterleaks",
+      "format": "svg",
+      "extensions": [".betterleaksignore"],
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  ],
+  "vsicons.associations.folders": [
+    {
+      "icon": "ansible",
+      "format": "svg",
+      "extensions": [".ansible", "ansible"],
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "icon": "aptly",
+      "format": "svg",
+      "extensions": ["aptly"],
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "icon": "systemd",
+      "format": "svg",
+      "extensions": ["systemd"],
     },
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff"
-    },
-    "[toml]": {
-        "editor.defaultFormatter": "tombi-toml.tombi"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "ansible.lightspeed.enabled": false,
-    "ansible.lightspeed.suggestions.enabled": false,
-    "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "chat.disableAIFeatures": true,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.formatOnSave": false,
-    "editor.minimap.enabled": false,
-    "editor.semanticHighlighting.enabled": false,
-    "files.associations": {
-        "**/handlers/**/**/*.yml": "ansible",
-        "**/playbooks/*.yml": "ansible",
-        "**/playbooks/tasks/*.yml": "ansible",
-        "**/roles/**/**/*.yml": "ansible",
-        "*.log.*": "log",
-        ".rc": "shellscript"
-    },
-    "files.insertFinalNewline": true,
-    "git.addAICoAuthor": "off",
-    "git.enableCommitSigning": true,
-    "git.inputValidation": true,
-    "git.suggestSmartCommit": false,
-    "mypy-type-checker.args": [
-        "--strict"
-    ],
-    "python.languageServer": "Jedi",
-    "python.terminal.activateEnvironment": false,
-    "python.terminal.shellIntegration.enabled": false,
-    "redhat.telemetry.enabled": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "shellcheck.enable": false,
-    "syncSettings.additionalFiles": [
-        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_shell_template.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_ansible_opened.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/file_type_betterleaks.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_aptly_opened.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd.svg",
-        "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd_opened.svg"
-    ],
-    "syncSettings.resources": [
-        "extensions",
-        "keybindings",
-        "settings"
-    ],
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.stickyScroll.enabled": false,
-    "vsicons.associations.files": [
-        {
-            "icon": "shell_template",
-            "format": "svg",
-            "extensions": [
-                ".shtpl"
-            ]
-        },
-        {
-            "icon": "betterleaks",
-            "format": "svg",
-            "extensions": [
-                ".betterleaksignore"
-            ]
-        }
-    ],
-    "vsicons.associations.folders": [
-        {
-            "icon": "ansible",
-            "format": "svg",
-            "extensions": [
-                ".ansible",
-                "ansible"
-            ]
-        },
-        {
-            "icon": "aptly",
-            "format": "svg",
-            "extensions": [
-                "aptly"
-            ]
-        },
-        {
-            "icon": "systemd",
-            "format": "svg",
-            "extensions": [
-                "systemd"
-            ]
-        }
-    ],
-    "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "workbench.editor.openPositioning": "last",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.settings.editor": "json",
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none",
-    "yaml.disableSchemaDetection": [
-        "**/.github/workflows/*.yml",
-        "**/.github/workflows/*.yaml",
-        "**/.gitea/workflows/*.yml",
-        "**/.gitea/workflows/*.yaml",
-        "**/.forgejo/workflows/*.yml",
-        "**/.forgejo/workflows/*.yaml"
-    ],
+  ],
+  "vsicons.customIconFolderPath": "/home/conner/.config/VSCodium/User",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.editor.openPositioning": "last",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "none",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml",
+  ],
 }
