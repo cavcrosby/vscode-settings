@@ -25,7 +25,7 @@
   },
   "ansible.lightspeed.enabled": false,
   "ansible.lightspeed.suggestions.enabled": false,
-  "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
+  "clangd.path": "/home/conner/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/23.1.0/clangd_23.1.0/bin/clangd",
   "diffEditor.ignoreTrimWhitespace": false,
   "chat.disableAIFeatures": true,
   "editor.bracketPairColorization.enabled": false,
