@@ -63,6 +63,7 @@
     "~/.config/VSCodium/User/vsicons-custom-icons/folder_type_systemd_opened.svg",
   ],
   "syncSettings.resources": ["extensions", "keybindings", "settings"],
+  "terminal.integrated.detectLocale": "off",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.stickyScroll.enabled": false,
   "vsicons.associations.files": [
